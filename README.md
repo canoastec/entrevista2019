@@ -1,4 +1,35 @@
-## Instruções
+# Instruções
+
+## Parte de Análise
+1 - Criar um projeto no trello e me adicionar no seu projeto (eduardosouza_canoastec)
+
+2 - Planejar sprints
+
+3 - Criar Tarefas (listadas abaixo, na Parte de Código) no padrão user history
+ 
+4 - Estimar Tarefas 
+
+5 - Exemplo de user history
+```
+- **COMO** Usuário
+- **QUERO ** ver a data de cadastro no padrão brasileiro
+- **PARA ** Melhor visualização e entendimento
+
+**CRITÉRIOS DE ACEITAÇÃO**
+
+**1**
+- **DADO** que estou na tela de listagem de usuarios
+- **QUANDO ** exibir a data de cadastro do usuario
+- **ENTÃO** Exibir a data de cadastro no formato DD/MM/AAAA
+
+**2**
+- **DADO** que estou na tela de listagem de usuarios
+- **QUANDO ** não um usuario não houver data de cadastro
+- **ENTÃO** deixar vazio
+
+```
+
+## Parte de Código
 
 **Configurações antes de codificar**
 
@@ -40,10 +71,16 @@
 
 1 - Exibir na listagem o perfil do usuário
 
-2 - Incluir e usar a biblioteca Bootstrap ou Materialize
+2 - Incluir e usar a biblioteca Bootstrap 
 
-3 - Incluir e usar a biblioteca Jquery ou Vue JS
+3 - Incluir e usar Vue JS
 
 4 - Nesta tela de instruções, criar checkbox para marcar que a tarefa foi concluida e salvar este estado sem usar a session do PHP e nem o banco de dados.
 
 5 - criar este mesmo projeto, só que utilizando o framework laravel
+
+6 - Criar testes unitários
+
+7 - Criar testes de aceitação
+
+8 - Criar container docker
